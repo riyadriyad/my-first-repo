@@ -1,0 +1,105 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Baloo Bhaijaan 2', cursive;
+}
+
+.header {
+    background-image: linear-gradient(rgba(233, 218, 218, 0.459), rgba(226, 25, 25, 0.808)), url("images/background1.png");
+    min-height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.Left {
+    display: inline-block;
+    position: absolute;
+    top: 12px;
+    left: 12px;
+    font-size: 50px;
+}
+
+.Mid {
+    display: block;
+    width: 33%;
+    margin: 0px auto;
+    padding: 20px;
+}
+
+.navbar {
+    display: inline-block;
+}
+
+.navbar li {
+    display: inline-block;
+    border: 05px solid black;
+    border-radius: 10px;
+    border-bottom: 20px;
+    border-top: 20px;
+    font-size: 40px;
+    cursor: pointer;
+    background: transparent;
+
+
+}
+.navbar :hover {
+    transition: 0.5s;
+   background-color: blue;
+   
+}
+
+.Right {
+    display: inline-block;
+    position: absolute;
+    right: 20px;
+    top: 10px;
+}
+
+.btn {
+    padding: 05px 05px;
+    background-color: rgb(195, 195, 202);
+    margin: 01px 01px;
+    border: 2px solid rgb(232, 232, 240);
+    border-radius: 10px;
+    top: 05px;
+
+}
+.container {
+    margin: 150px 200px;
+    width: 40%;
+    border: 2px solid white;
+    border-radius: 10px;
+    color: white;
+    padding: 20px 100px;
+    display: block;
+}
+.container h1 {
+    margin: 2px 80px;
+}
+.container form {
+    display: block;
+    padding: 0px 30px;
+    font-size: 20px;
+}
+.container input {
+    padding: 2px 2px;
+    width: 300px;
+    margin: 2px;
+    text-align: center;
+    display: block;
+    border-radius: 15px;
+}
+.submit {
+    padding: 10px 30px;
+    background-color: rgb(195, 195, 202);
+    margin: 05px 80px;
+    border: 2px solid rgb(232, 232, 240);
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+#roll {
+    flex: wrap;
+}
